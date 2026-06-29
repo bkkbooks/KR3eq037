@@ -1,0 +1,125 @@
+canonical_identifier: bkk:krp/KR3eq037/v1
+canonical_location: https://kanripo.org/bkk/KR3eq037/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 古書醫言
+  identifiers:
+    krp: KR3eq037
+  tags:
+    kr-categories: KR3eq
+    tls-dates: dat04210
+  source:
+    repository: tls-texts
+    path: data/tls/KR3eq037.xml
+  edition:
+    short: bkk
+assets:
+  parts:
+  - {seq: 0, filename: KR3eq037_000.yaml, hash: 'sha256:389c8ef56a8e45aa6ccde80cc04657eadcee20c8171b8853f08f72d5bafe9393'}
+  - {seq: 1, filename: KR3eq037_001.yaml, hash: 'sha256:d036dc14889c621efb6dd6b6328f109ddb5e357b92e77c951aff7d49f1db92ea'}
+  - {seq: 2, filename: KR3eq037_002.yaml, hash: 'sha256:e6a4af4981c9705dc3665558d77e93558f296a3d37d4c841d65ba0bb942fbe2b'}
+  - {seq: 3, filename: KR3eq037_003.yaml, hash: 'sha256:d9a864fa6eea3fa0b376603ca707cb40010c8cb23fb04ac5c117e7a26d0c575f'}
+  - {seq: 4, filename: KR3eq037_004.yaml, hash: 'sha256:fb35856d94fbe499aed01c99a3ace9142dadb5740e21c7886d989504e4bc0c15'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR3eq037_000.markers.yaml, hash: 'sha256:1e81f65d5815e18772cd619d108bfeeaeadb5a99042b2ca0db421cd63835678b'}
+  - {seq: 1, role: markers, filename: assets/KR3eq037_001.markers.yaml, hash: 'sha256:cd33c8ca7895d8fe519aafce9906ce445e942d35fe3f26d0c471ecb63a099961'}
+  - {seq: 2, role: markers, filename: assets/KR3eq037_002.markers.yaml, hash: 'sha256:d50f895df48f0784f608de11cb7a5f28dbebb367950d27bfabf73303dae3b66b'}
+  - {seq: 3, role: markers, filename: assets/KR3eq037_003.markers.yaml, hash: 'sha256:d6ee41c6c89b644c041a8af6204ee0838da686795f99ca6929521a01c2ea15b6'}
+  - {seq: 4, role: markers, filename: assets/KR3eq037_004.markers.yaml, hash: 'sha256:fdc2a1787981c95805c876894b9d8ea8f5204d0cb7fc954bd9097996df91f140'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR3eq037_jc_000-d2.h1s1
+    span:
+    - front
+    - 0
+    - 514
+  label: 序
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR3eq037_jc_001-d3.h1s1
+    span:
+    - body
+    - 0
+    - 6700
+  label: 卷一
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3eq037_jc_002-d4.h1s1
+    span:
+    - body
+    - 0
+    - 9922
+  label: 卷二
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR3eq037_jc_002-d4d256
+    span:
+    - body
+    - 7693
+    - 8792
+  label: 扁鵲傳評
+  type: section
+  level: 2
+- ref:
+    seq: 2
+    marker_id: KR3eq037_jc_002-d4d257
+    span:
+    - body
+    - 8792
+    - 9625
+  label: 讀扁鵲之傳
+  type: section
+  level: 2
+- ref:
+    seq: 2
+    marker_id: KR3eq037_jc_002-d4d258
+    span:
+    - body
+    - 9625
+    - 9922
+  label: 扁鵲傳總論
+  type: section
+  level: 2
+- ref:
+    seq: 3
+    marker_id: KR3eq037_jc_003-d5.h1s1
+    span:
+    - body
+    - 0
+    - 8693
+  label: 卷三
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR3eq037_jc_003-d5d2
+    span:
+    - body
+    - 2
+    - 8693
+  label: 太倉公傳
+  type: section
+  level: 2
+- ref:
+    seq: 4
+    marker_id: KR3eq037_jc_004-d6.h1s1
+    span:
+    - body
+    - 0
+    - 9969
+  label: 卷四
+  type: section
+  level: 1
+hash: sha256:0db70594469bb35f2fe1082df4b82cb34a77ee379fbd162c4ad7e332a31bd7f6
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
